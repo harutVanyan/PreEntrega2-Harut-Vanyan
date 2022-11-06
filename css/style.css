@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+html{
+    font-size: 62.5%;
+}
+/* inicio nav */
+.navegador{
+    background-color: black;
+    width: 100vw;
+    height: 140px;
+    text-align:right;
+    font-size: 2rem;  
+
+}
+#txtnav{
+    margin-top: -5%;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    color: white;
+    
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+      
+}
+nav ul li a:hover{
+    color: goldenrod;
+    
+      
+} 
+.logo{
+    width: 10%;
+    height: 15vh;
+    margin-right: 85%;
+    margin-top: 10px;
+    padding: 10px;
+}
+/* fin nav */
+
+/* Inicio Index */
+
+.imagenInicio{
+    width: 100vw;
+    height: 650px;
+    
+}
+.ubicacion{
+    color:white;
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+
+}
+
+h1{
+    font-size: 4rem;
+    width:max-content;
+    margin-bottom: 10px;
+
+}
+
+.subtInicio{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.parInicio{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.posicionTexto{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 45vh;
+    text-align:left
+}
+
+.btn{
+    background-color: #C1A35F;
+    color:black;
+    text-decoration: none;
+    font-weight:500;
+    font-size: 2rem;
+    margin-top: 30%;
+    margin-left: 30%;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    
+    
+}
+
+.btn:hover{
+color:white;
+}
+
+.inicioGaleria{
+    color:white;
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+}
+
+.textoInicioGaleria{
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    width: 45vh;
+    text-align: justify;
+    
+}
+/* fin Index*/
+
+/* Inicio Nosotros*/
+.sectionNosotros{
+    display: flex;
+    min-width: 100%;
+    background-color: black;
+}  
+
+.divNosotros{
+    width: 50%;
+    color: white;
+    padding: 100px;
+    
+}
+
+.divNosotros{
+    border-right: 6px solid #C1A35F;
+}
+
+.imgNosotros{
+    height: 500px;
+    width: 750px;
+    overflow: hidden;
+    padding: 50px;
+    
+}
+
+.tituloNosotros{
+    margin-top: 20px;
+    margin-bottom: 6px;
+    text-align: center;
+    color: #C1A35F;
+    font-size: 4rem;
+    
+}
+
+.parNosotros{
+    text-align: justify;
+    font-weight:400;
+    font-size: 2rem;
+    
+}
+/* Fin Nosotros*/
+
+/* inicio Clases */
+.fondoclases
+
+.divClases{
+    width: 100vw;
+    font-size: 2rem;
+    
+}
+
+.imgClases{
+    width: 50%;
+    height: 500px;
+}
+/* Fin Clases */
+
+/* Inicio Galeria */
+.video{
+    width: 100%;
+}
+.fondoGaleria{
+    display: grid;
+    grid-template-columns: 500px 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px 500px;
+    background-color: black;
+}
+.imgGaleria{
+    width: 100%;
+    object-fit:contain
+}
+/* Fin Galeria */
+
+
+/* inicio Entrenador Personal */
+.imgEpersonal{
+    width: 50%;
+}
+/* Fin Entrenador Personal */
+
+/* Inicio Membresia */
+
+/* Fin Memmbresia */
+.imgMembresia{
+    width: 100%;
+} 
+/* Inicio Footer*/
+.footer{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 180px;
+    padding-left: 600px;
+
+}
+
+svg{
+    fill:white;
+    margin-inline: 15px;
+    align-items: center;
+    margin-top: 55px;
+}
+
+svg:hover{
+    fill:#C1A35F;
+    transform: scale(1.5);
+    transition: 0.3s
+}
+/* Fin Footer*/
+
+
