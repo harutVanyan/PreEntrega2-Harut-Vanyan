@@ -1,207 +1,63 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
 
-/* Body */
+.fondo {
+  background-color: #000000; }
 
-.fondo{
-    background-color: black;
-}
-/* Body */ 
+.nav-link {
+  color: #ffffff; }
+  .nav-link:hover {
+    color: #C1A35F !important; }
 
 /* inicio nav */
-.nav-link:hover{
-    color: #C1A35F !important;
-
-}
 /* fin nav */
-
 /* Inicio Index */
+.titulo {
+  font-size: 2.5rem; }
 
-.imagenInicio{
-    width: 100vw;
-    height: 650px;
-    object-fit: cover;
-    
-}
-.ubicacion{
-    color:white;
-    position:relative;
-    display: inline-block;
-    text-align: center;
-    background-color: black;
+.texto {
+  font-size: 1.2rem; }
 
-}
+.subtitulo {
+  font-size: 2rem; }
 
-.titulo{
-    color: #C1A35F;
-    width:max-content;
-    margin-bottom: 10px;
+.boton:hover {
+  color: white; }
 
-}
-
-.subtInicio{
-     color: #C1A35F;
-    font-weight: 500;
-    margin-bottom: 5px;
-}
-
-.parInicio{
-    font-weight: 400;
-    font-size: 1.5rem;
-    
-}
-
-.posicionTexto{
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 45vh;
-    text-align:left
-}
-
-.boton{
-    background-color: #C1A35F;
-    color:black;
-    text-decoration: none;
-    font-weight:500;
-    font-size: 1.5rem;
-    margin-top: 30%;
-    margin-left: 30%;
-    padding: 10px 25px;
-    border: 2px solid transparent;
-    border-radius: 30px;
-    
-    
-}
-
-.boton:hover{
-color:white;
-}
-
-.inicioGaleria{
-    color:white;
-    position:relative;
-    display: inline-block;
-    text-align: center;
-    background-color: black;
-}
-
-.textoInicioGaleria{
-    position: absolute;
-    top: 10%;
-    left: 38%;
-    width: 50vh;
-    text-align: justify;
-    
-}
 /* fin Index*/
-
 /* Inicio Nosotros*/
-.sectionNosotros{
-    display: flex;
-    min-width: 100%;
-    background-color: black;
-}  
-
-.divNosotros{
-    width: 50%;
-    color: white;
-    padding: 100px;
-    
-}
-
-.divNosotros{
-    border-right: 6px solid #C1A35F;
-}
-
-.imgNosotros{
-    height: 500px;
-    width: 50%;
-    overflow: hidden;
-    padding: 50px;
-    
-    
-    
-}
-
-.tituloNosotros{
-    margin-top: 20px;
-    margin-bottom: 6px;
-    text-align: center;
-    color: #C1A35F;
-    
-    
-}
-
-.parNosotros{
-    text-align: justify;
-    font-weight:400;
-    font-size: 1.2rem;
-    
-    
-}
 /* Fin Nosotros*/
-
 /* inicio Clases */
-.fondoclases
-
-.divClases{
-    width: 100vw;
-    font-size: 2rem;
-    
-}
-
-.imgClases{
-    width: 50%;
-    height: 500px;
-}
 /* Fin Clases */
-
 /* Inicio Galeria */
-.galeria{
-    background-color: black;
-}
+.galeria {
+  background-color: black; }
 
-.alto{
-    height: 400px;
-    object-fit: cover;
-}
-.text-center{
-    color: #C1A35F;
-    
-}
+.alto {
+  height: 400px;
+  object-fit: cover; }
 
 /* Fin Galeria */
-
-
 /* inicio Entrenador Personal */
-.imgEpersonal{
-    width: 50%;
-}
 /* Fin Entrenador Personal */
-
 /* Inicio Membresia */
-.sombra{
-    -webkit-box-shadow: 5px 15px 25px 4px #C1A35F;
-    box-shadow: 5px 15px 25px 4px #C1A35F;
-}
+.sombra {
+  -webkit-box-shadow: 5px 15px 25px 4px #C1A35F;
+  box-shadow: 5px 15px 25px 4px #C1A35F; }
 
 /* Fin Memmbresia */
-
-
 /* Inicio Footer*/
+svg:hover {
+  transform: scale(1.3);
+  transition: 0.3s; }
 
+.text-bg-warning {
+  color: #C1A35F !important;
+  background-color: black !important; }
 
-svg:hover{
-    
-    transform: scale(1.3);
-    transition: 0.3s
-} 
-/* Fin Footer*/
-
-
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 1.5rem; } }

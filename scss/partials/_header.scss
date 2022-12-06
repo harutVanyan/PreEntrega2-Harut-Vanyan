@@ -1,0 +1,7 @@
+.nav-link {
+    color: $cterciario;
+
+    &:hover {
+        color: $csecundario !important;
+    }
+}
