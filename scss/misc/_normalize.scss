@@ -9,3 +9,46 @@
 .fondo{
     background-color: $cprincipal;
 }
+
+.titulo{
+    font-size: $fuente-titulo;
+    
+}
+
+.texto{
+    font-size: $fuente-texto;
+    
+    
+}
+.subtitulo{
+    font-size: $fuente-subtitulo;
+}
+
+
+.text-bg-warning{
+    color: $csecundario !important;
+    background-color: $cprincipal !important;
+}
+
+.sombra{
+    -webkit-box-shadow: 5px 15px 25px 4px #C1A35F;
+    box-shadow: 5px 15px 25px 4px #C1A35F;
+}
+
+//mixin//
+.titulo{
+    @include style-titulo
+}
+
+//media//
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+    .subtitulo {
+        font-size: 1.3rem;
+    }
+    .texto{
+        font-size: 0.9rem;
+    }
+}

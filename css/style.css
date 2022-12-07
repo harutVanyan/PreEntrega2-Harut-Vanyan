@@ -7,57 +7,49 @@
 .fondo {
   background-color: #000000; }
 
-.nav-link {
-  color: #ffffff; }
-  .nav-link:hover {
-    color: #C1A35F !important; }
-
-/* inicio nav */
-/* fin nav */
-/* Inicio Index */
 .titulo {
   font-size: 2.5rem; }
 
 .texto {
-  font-size: 1.2rem; }
+  font-size: 1.5rem; }
 
 .subtitulo {
   font-size: 2rem; }
 
-.boton:hover {
-  color: white; }
+.text-bg-warning {
+  color: #C1A35F !important;
+  background-color: #000000 !important; }
 
-/* fin Index*/
-/* Inicio Nosotros*/
-/* Fin Nosotros*/
-/* inicio Clases */
-/* Fin Clases */
-/* Inicio Galeria */
-.galeria {
-  background-color: black; }
-
-.alto {
-  height: 400px;
-  object-fit: cover; }
-
-/* Fin Galeria */
-/* inicio Entrenador Personal */
-/* Fin Entrenador Personal */
-/* Inicio Membresia */
 .sombra {
   -webkit-box-shadow: 5px 15px 25px 4px #C1A35F;
   box-shadow: 5px 15px 25px 4px #C1A35F; }
 
-/* Fin Memmbresia */
-/* Inicio Footer*/
-svg:hover {
-  transform: scale(1.3);
-  transition: 0.3s; }
-
-.text-bg-warning {
-  color: #C1A35F !important;
-  background-color: black !important; }
+.titulo {
+  font-weight: bold;
+  color: #C1A35F;
+  text-decoration-line: underline; }
 
 @media (max-width: 768px) {
   .titulo {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .subtitulo {
+    font-size: 1.3rem; }
+  .texto {
+    font-size: 0.9rem; } }
+
+.nav-item .nav-link {
+  color: #ffffff; }
+  .nav-item .nav-link:hover {
+    color: #C1A35F !important; }
+
+footer div section a svg:hover {
+  transform: scale(1.3);
+  transition: 0.3s; }
+
+.container .row .col-lg-4 .alto {
+  height: 400px;
+  object-fit: cover; }
+
+.clases {
+  border-radius: 3px solid #C1A35F;
+  font-weight: 700; }

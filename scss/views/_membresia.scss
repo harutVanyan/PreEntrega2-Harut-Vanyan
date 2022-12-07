@@ -1,0 +1,6 @@
+.clases{
+    border-radius: map-get($bordes, borde-solid-trespx );
+    border: map-get($bordes, borde-solid-tresp );
+    font-weight: map-get($fuentes, bold );
+}
+

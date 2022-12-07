@@ -16,87 +16,21 @@
 @import "./views/membresia";
 
 
-/* inicio nav */
-
-/* fin nav */
-
-/* Inicio Index */
-
-.titulo{
-    font-size: 2.5rem;
-}
-
-.texto{
-    font-size: 1.2rem;
-    
-}
-.subtitulo{
-    font-size: 2rem;
-}
-.boton:hover{
-color:white;
-}
 
 
 
 
-/* fin Index*/
-
-/* Inicio Nosotros*/
 
 
-/* Fin Nosotros*/
-
-/* inicio Clases */
 
 
-/* Fin Clases */
-
-/* Inicio Galeria */
-.galeria{
-    background-color: black;
-}
-
-.alto{
-    height: 400px;
-    object-fit: cover;
-}
 
 
-/* Fin Galeria */
 
 
-/* inicio Entrenador Personal */
-
-/* Fin Entrenador Personal */
-
-/* Inicio Membresia */
-.sombra{
-    -webkit-box-shadow: 5px 15px 25px 4px #C1A35F;
-    box-shadow: 5px 15px 25px 4px #C1A35F;
-}
-
-/* Fin Memmbresia */
 
 
-/* Inicio Footer*/
 
 
-svg:hover{
-    
-    transform: scale(1.3);
-    transition: 0.3s
-} 
-.text-bg-warning{
-    color: #C1A35F !important;
-    background-color:black !important;
-}
 
-
-// * Fin Footer*/
-@media (max-width: 768px) {
-    .titulo {
-        font-size: 1.5rem;
-    }
-}
 

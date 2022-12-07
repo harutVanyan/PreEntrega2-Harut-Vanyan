@@ -1,7 +1,10 @@
-.nav-link {
-    color: $cterciario;
+ .nav-item {
+     .nav-link {
+         color: $cterciario;
 
-    &:hover {
-        color: $csecundario !important;
-    }
-}
+         &:hover {
+             color: $csecundario !important;
+         }
+
+     }
+ }

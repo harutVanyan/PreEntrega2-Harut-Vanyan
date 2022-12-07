@@ -3,3 +3,35 @@
 $cprincipal: #000000;
 $csecundario: #C1A35F;
 $cterciario: #ffffff;
+$fuente-titulo: 2.5rem;
+$fuente-subtitulo: 2rem;
+$fuente-texto: 1.5rem;
+$texto-card: $fuente-titulo - $fuente-texto;  //operacion//
+$weight: bold;
+$borde: 3px solid #C1A35F;
+
+
+
+// Mixin //
+ 
+@mixin style-titulo  {
+    font-weight: $weight;
+    color: $csecundario;
+    text-decoration-line: underline;
+}
+
+//maps//
+$bordes:(
+    borde-solid-principal :  1px solid #C1A35F ,
+    borde-solid-dospx:  2px solid #C1A35F ,
+    borde-solid-trespx:  3px solid #C1A35F,
+);
+
+$fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:500,
+    bold:700,
+    black:900
+)
