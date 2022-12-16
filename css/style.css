@@ -42,13 +42,84 @@
   .nav-item .nav-link:hover {
     color: #C1A35F !important; }
 
+.navbar-toggler {
+  border: 2px solid #C1A35F; }
+  .navbar-toggler:focus {
+    box-shadow: none; }
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='GoldenRod' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
 footer div section a svg:hover {
   transform: scale(1.3);
   transition: 0.3s; }
 
+.color-copy {
+  color: #C1A35F; }
+
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  height: 500px; }
+  .jumbotron .cont-inicio {
+    position: relative;
+    z-index: 1; }
+    .jumbotron .cont-inicio .row {
+      margin: 0;
+      padding: 0; }
+      .jumbotron .cont-inicio .row .col-12 {
+        color: #fff; }
+        .jumbotron .cont-inicio .row .col-12 .titulo-inicio {
+          font-size: 3rem;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          color: #C1A35F; }
+        .jumbotron .cont-inicio .row .col-12 .parrafo-inicio {
+          font-size: 1.5rem; }
+
+.sub-inicio {
+  color: #C1A35F; }
+
+.card-nos {
+  padding: 50px; }
+
+.titulo-nos {
+  color: #C1A35F; }
+
+.contenedor-clases {
+  max-width: 960px;
+  margin: 0 auto; }
+  .contenedor-clases .clases {
+    background-color: #000000;
+    color: #C1A35F;
+    padding: 1rem;
+    text-align: center; }
+  .contenedor-clases .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem; }
+    @media (max-width: 768px) {
+      .contenedor-clases .card-grid {
+        grid-template-columns: repeat(1, 1fr); } }
+    .contenedor-clases .card-grid .card-clases {
+      background-color: #C1A35F;
+      padding: 1rem;
+      text-align: center; }
+      .contenedor-clases .card-grid .card-clases .img-clases {
+        width: 100%;
+        object-fit: cover; }
+      .contenedor-clases .card-grid .card-clases .subt-clases {
+        font-size: 1.25rem; }
+      .contenedor-clases .card-grid .card-clases .texto-clases {
+        font-size: 1rem; }
+
 .container .row .col-lg-4 .alto {
   height: 400px;
   object-fit: cover; }
+
+.parrafo-personal {
+  font-size: 1.5rem;
+  font-weight: bold; }
 
 .clases {
   border-radius: 3px solid #C1A35F;

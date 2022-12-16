@@ -1,0 +1,45 @@
+.contenedor-clases {
+    max-width: 960px;
+    margin: 0 auto;
+
+    .clases {
+        background-color: $cprincipal;
+        color: $csecundario;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+        margin: 1rem;
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .card-clases {
+            background-color: $csecundario;
+            padding: 1rem;
+            text-align: center;
+
+            .img-clases {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .subt-clases {
+
+                font-size: 1.25rem;
+            }
+
+            .texto-clases {
+                font-size: 1rem;
+            }
+        }
+
+    }
+
+
+}

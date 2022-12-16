@@ -1,0 +1,38 @@
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+    .cont-inicio {
+        position: relative;
+        z-index: 1;
+
+
+        .row {
+            margin: 0;
+            padding: 0;
+
+            .col-12 {
+                color: #fff;
+
+                .titulo-inicio {
+                    font-size: 3rem;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    color: $csecundario;
+
+                }
+
+                .parrafo-inicio {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+.sub-inicio{
+    color: $csecundario;
+}
+
