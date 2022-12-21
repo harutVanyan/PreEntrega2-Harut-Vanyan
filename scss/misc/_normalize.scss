@@ -35,6 +35,16 @@
     box-shadow: 5px 15px 25px 4px #C1A35F;
 }
 
+.btn{
+    background-color: $csecundario;
+    color: black ;
+    &:hover{
+        background-color: #937c46;
+        color: white;
+    }
+}
+
+
 //mixin//
 .titulo{
     @include style-titulo

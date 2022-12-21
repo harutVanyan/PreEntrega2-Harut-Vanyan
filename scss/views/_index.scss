@@ -36,3 +36,8 @@
     color: $csecundario;
 }
 
+@media (max-width: 768px) {
+    .ancho-texto {
+        width: 100% !important;
+    }
+}

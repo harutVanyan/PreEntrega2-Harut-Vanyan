@@ -24,6 +24,13 @@
   -webkit-box-shadow: 5px 15px 25px 4px #C1A35F;
   box-shadow: 5px 15px 25px 4px #C1A35F; }
 
+.btn {
+  background-color: #C1A35F;
+  color: black; }
+  .btn:hover {
+    background-color: #937c46;
+    color: white; }
+
 .titulo {
   font-weight: bold;
   color: #C1A35F;
@@ -51,7 +58,8 @@
 
 footer div section a svg:hover {
   transform: scale(1.3);
-  transition: 0.3s; }
+  transition: 0.3s;
+  fill: #C1A35F; }
 
 .color-copy {
   color: #C1A35F; }
@@ -79,8 +87,9 @@ footer div section a svg:hover {
 .sub-inicio {
   color: #C1A35F; }
 
-.card-nos {
-  padding: 50px; }
+@media (max-width: 768px) {
+  .ancho-texto {
+    width: 100% !important; } }
 
 .titulo-nos {
   color: #C1A35F; }
@@ -112,6 +121,12 @@ footer div section a svg:hover {
         font-size: 1.25rem; }
       .contenedor-clases .card-grid .card-clases .texto-clases {
         font-size: 1rem; }
+
+.container .row .col-lg-4 .zoom {
+  transition: all 0.3s ease-in-out; }
+  .container .row .col-lg-4 .zoom:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.06); }
 
 .container .row .col-lg-4 .alto {
   height: 400px;
