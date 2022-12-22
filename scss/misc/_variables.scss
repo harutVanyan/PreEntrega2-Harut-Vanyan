@@ -3,7 +3,7 @@
 $cprincipal: #000000;
 $csecundario: #C1A35F;
 $cterciario: #ffffff;
-$fuente-titulo: 2.5rem;
+$fuente-titulo: 3rem;
 $fuente-subtitulo: 2rem;
 $fuente-texto: 1.5rem;
 $texto-card: $fuente-titulo - $fuente-texto;  //operacion//
@@ -17,7 +17,7 @@ $borde: 3px solid #C1A35F;
 @mixin style-titulo  {
     font-weight: $weight;
     color: $csecundario;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 
 //maps//

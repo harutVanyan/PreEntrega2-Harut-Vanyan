@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     
@@ -66,9 +67,9 @@
       <div class="container cont-inicio">
         <div class="row">
           <div class="col-12 text-center">
-            <h1 class="titulo-inicio">ENTRENAMIENTO PERSONALIZADO</h1>
+            <h1 class="mt-5 titulo">ENTRENAMIENTO PERSONALIZADO</h1>
             <div class="container ancho-texto w-50">
-            <p class="parrafo-inicio ">Comenzá a entrenar de manera personalizada, con los mejores profesores y nuestros planes exclusivos de entrenamiento y nutrición.</p>
+            <p class=" texto mt-3 ">Comenzá a entrenar de manera personalizada, con los mejores profesores y nuestros planes exclusivos de entrenamiento y nutrición.</p>
             </div>
               <a class="btn btn-outline-warning btn-lg mt-5" href="./pages/membresia.html" role="button">Membresía</a>
           </div>
@@ -76,14 +77,17 @@
       </div>
     </div>
 
+    
    
     <!-- Fin banner entrenador personal -->
 
     <!-- Inicio planes entrenamiento personalizado  -->
-    <section class="container w-75">
-        <h2 class="card-title text-center subtitulo mt-3 mb-3 text-bg-warning">ELEGÍ EL PLAN IDEAL PARA VOS</h2>
-
-        <div class="card mb-5" >
+    <section class="container mt-5 w-75">
+        <hr class=" border border-1 mb-2">
+        <h2 class="card-title text-center subtitulo mt-4 mb-4">ELEGÍ EL PLAN IDEAL PARA VOS</h2>
+        <hr class=" border border-1 mt-2">
+        <div class="card sombra mb-5" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000">
           <img src="../assets/images/imgEntrenadorPersonal/mujerTrx.jpg" class="card-img-top" alt="mujer entrenando">
           <div class="card-body ">
             <h3 class="card-title text-center">Básico</h3>
@@ -103,18 +107,19 @@
           </div>
         </div>
 
-       
+        <hr class=" border border-1 mt-5 ">
         
 
-        <div class="card mb-5" >
+        <div class="card sombra mt-5 mb-5 " data-aos="flip-left" data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" >
           <img src="../assets/images/imgEntrenadorPersonal/estocadas.jpg" class="card-img-top" alt="hombre haciendo estocadas">
-          <div class="card-body">
+          <div class="card-body ">
             <h3 class="card-title text-center">Premium</h3>
             <p class="card-text">Este plan esta orientado a personas que ya tengan una base de entrenamiento o que quieran hacer
               un cambio drástico a su estilo de vida.   </p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">5 clases personalizadas semanales</li>
+            <li class="list-group-item  ">5 clases personalizadas semanales</li>
             <li class="list-group-item">Pesaje mensual con balanza de bioimpedancia,
               para medir porcentajes de grasa y músculo.</li>
             <li class="list-group-item">Pase libre a la pileta de natación.</li>
@@ -155,7 +160,7 @@
           <a class="   m-2" href="https://twitter.com/" role="button"
             ><svg width="30px" height="30px" fill="white" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path d="M25.974 9.369c0.012 0.243 0.017 0.489 0.017 0.732 0 7.485 -5.696 16.113 -16.11 16.113 -3.2 0 -6.174 -0.938 -8.681 -2.546a11.366 11.366 0 0 0 8.382 -2.343 5.668 5.668 0 0 1 -5.289 -3.931 5.787 5.787 0 0 0 2.558 -0.098 5.668 5.668 0 0 1 -4.542 -5.554v-0.071a5.649 5.649 0 0 0 2.565 0.71 5.662 5.662 0 0 1 -1.752 -7.562 16.074 16.074 0 0 0 11.671 5.917 5.72 5.72 0 0 1 -0.146 -1.292 5.66 5.66 0 0 1 5.661 -5.66 5.655 5.655 0 0 1 4.134 1.787 11.403 11.403 0 0 0 3.595 -1.374 5.684 5.684 0 0 1 -2.49 3.132 11.325 11.325 0 0 0 3.252 -0.891 11.434 11.434 0 0 1 -2.826 2.929z"/></svg></a>
     
-            <a class="  m-2" style="text-decoration-line:none ;" href="https://www.youtube.com/" role="button"
+            <a class=" text-decoration-none m-2"  href="https://www.youtube.com/" role="button"
             ><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
                 <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
               </svg>
@@ -186,6 +191,11 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
 </body>
 </html>

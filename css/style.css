@@ -8,13 +8,15 @@
   background-color: #000000; }
 
 .titulo {
-  font-size: 2.5rem; }
+  font-size: 3rem;
+  color: #C1A35F; }
 
 .texto {
   font-size: 1.5rem; }
 
 .subtitulo {
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #C1A35F; }
 
 .text-bg-warning {
   color: #C1A35F !important;
@@ -34,15 +36,15 @@
 .titulo {
   font-weight: bold;
   color: #C1A35F;
-  text-decoration-line: underline; }
+  text-decoration-line: none; }
 
 @media (max-width: 768px) {
   .titulo {
-    font-size: 1.5rem; }
+    font-size: 2rem; }
   .subtitulo {
-    font-size: 1.3rem; }
+    font-size: 1.6rem; }
   .texto {
-    font-size: 0.9rem; } }
+    font-size: 1.2rem; } }
 
 .nav-item .nav-link {
   color: #ffffff; }
@@ -113,7 +115,8 @@ footer div section a svg:hover {
     .contenedor-clases .card-grid .card-clases {
       background-color: #C1A35F;
       padding: 1rem;
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 1rem; }
       .contenedor-clases .card-grid .card-clases .img-clases {
         width: 100%;
         object-fit: cover; }
@@ -139,3 +142,6 @@ footer div section a svg:hover {
 .clases {
   border-radius: 3px solid #C1A35F;
   font-weight: 700; }
+
+.ajuste {
+  overflow: hidden; }
