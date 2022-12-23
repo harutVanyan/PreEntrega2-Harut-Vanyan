@@ -47,3 +47,15 @@
 
 
 }
+
+@media (min-width: 577px){
+    #tabla-mobile{
+        display: none;
+    }
+}
+
+@media (max-width: 576px){
+    #tabla-pantalla{
+        display: none;
+    }
+}

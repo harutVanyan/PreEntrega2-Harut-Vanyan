@@ -125,6 +125,14 @@ footer div section a svg:hover {
       .contenedor-clases .card-grid .card-clases .texto-clases {
         font-size: 1rem; }
 
+@media (min-width: 577px) {
+  #tabla-mobile {
+    display: none; } }
+
+@media (max-width: 576px) {
+  #tabla-pantalla {
+    display: none; } }
+
 .container .row .col-lg-4 .zoom {
   transition: all 0.3s ease-in-out; }
   .container .row .col-lg-4 .zoom:hover {
